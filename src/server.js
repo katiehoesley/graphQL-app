@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express(); 
 const PORT = 8000; 
-const userData = require("../MOCK_DATA.json")
+const userData = require("./MOCK_DATA.json")
 const graphql = require("graphql");
 const { 
     GraphQLObjectType, 
@@ -68,3 +68,4 @@ app.use("/graphql", graphqlHTTP({
 app.listen(PORT, () => {
     console.log("Server's Up!")
 })
+
