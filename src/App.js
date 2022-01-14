@@ -1,4 +1,4 @@
-import Services from './Services.js'
+import Services from '../Services.js'
 
 function App() {
   // const url = "https://api.bigcommerce.com/stores/vm1cxyyu1a/v3/catalog/products"
