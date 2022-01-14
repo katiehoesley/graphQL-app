@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express(); 
 const PORT = 8000; 
-const userData = require("./MOCK_DATA.json")
+const userData = require("./MOCK_DATA.json ")
 const graphql = require("graphql");
 const { 
     GraphQLObjectType, 
@@ -10,7 +10,7 @@ const {
     GraphQLString, 
     GraphQLList
    } = graphql;
-const { graphqlhttp } = require("express-graphql")
+const { graphqlHTTP } = require("express-graphql")
 
 const UserType = new GraphQLObjectType({
     name: "User",
